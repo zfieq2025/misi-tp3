@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>MISI TP3 LEVEL UP</title>
+
+<style>
+
+body{
+font-family:Arial;
+text-align:center;
+background:#E8F5E9;
+padding:30px;
+}
+
+.container{
+max-width:700px;
+margin:auto;
+background:white;
+padding:30px;
+border-radius:15px;
+box-shadow:0 0 10px #ccc;
+}
+
+button{
+padding:12px 20px;
+margin:10px;
+font-size:18px;
+cursor:pointer;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>🎮 MISI TP3 : LEVEL UP!</h1>
+
+<h2>Padankan Nombor</h2>
+
+<h1>491</h1>
+
+<button onclick="betul()">
+empat ratus sembilan puluh satu
+</button>
+
+<button onclick="salah()">
+lima ratus dua puluh
+</button>
+
+<button onclick="salah()">
+satu ribu
+</button>
+
+<h2 id="msg"></h2>
+
+</div>
+
+<script>
+
+function betul(){
+document.getElementById("msg").innerHTML=
+"🎉 Tahniah! Jawapan Anda Betul";
+}
+
+function salah(){
+document.getElementById("msg").innerHTML=
+"❌ Cuba Lagi";
+}
+
+</script>
+
+</body>
+</html>
